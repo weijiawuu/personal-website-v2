@@ -1,6 +1,5 @@
 import React from 'react';
-import Typed from 'react-typed';
-import { FaSquareEnvelope, FaSquareGithub, FaLinkedin } from 'react-icons/fa6';
+import {Typewriter} from 'react-simple-typewriter';
 
 const Hero = () => {
   return (
@@ -12,17 +11,19 @@ const Hero = () => {
         <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 text-[#e85a4f]'>
           My name is Weijia Wu
         </h1>
-        <div className='flex justify-center items-center text-[#e85a4f]'>
-          <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>
-            I have experience in 
+        <div className='flex justify-center items-center text-[#e85a4f] md:text-5xl sm:text-4xl text-xl font-bold py-4'>
+          <p className=''>
+            I have experience in &nbsp;
           </p>
-          <Typed
-          className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 text-[#e98074]'
-            strings={['C++', 'Python', 'Verilog', 'React', 'MATLAB']}
-            typeSpeed={130}
-            backSpeed={120}
-            loop
-          />
+          <div className='text-[#e98074]'>
+            <Typewriter
+              words={['C++', 'Python', 'Verilog', 'React', 'MATLAB']}
+              cursor
+              typeSpeed={130}
+              deleteSpeed={120}
+              loop
+            />
+          </div>
         </div>
         <p className='max-w-[600px] text-2xl font-bold mx-auto text-[#d8c3a5]'>Currently studying computer engineering at the University of Michigan</p>
         <a href="/WeijiaWuResumeWebsite.pdf" download>
