@@ -14,7 +14,7 @@ function About() {
             </p>
           </div>
           <div className="md:pl-12">
-            <img src="/WeijiaWuSeniorPic.jpg" alt="My Picture" className="rounded-lg shadow-md max-w-full" style={{ width: '100%', maxWidth: '500px' }} />
+            <img src="/WeijiaWuSeniorPic.jpg" className="rounded-lg shadow-md max-w-full" style={{ width: '100%', maxWidth: '500px' }} />
           </div>
         </div>
       </div>
