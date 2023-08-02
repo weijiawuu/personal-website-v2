@@ -33,7 +33,7 @@ const Hero = () => {
         </a>
       </div>
 
-      {/*test 2'>}
+      {/*test 3'>}
 
       {/* <div className='flex justify-center gap-8 mt-[0px] fixed bottom-0 left-0 w-full py-6 px-4 text-gray-300'>
         <div>
