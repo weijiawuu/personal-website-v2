@@ -26,7 +26,7 @@ const Hero = () => {
           </div>
         </div>
         <p className='max-w-[600px] text-2xl font-bold mx-auto text-[#d8c3a5]'>Currently studying computer engineering at the University of Michigan</p>
-        <a href="/WeijiaWuResumeWebsite.pdf" download>
+        <a href="/WeijiaWuResume.pdf" download>
           <button className='bg-[#8e8d8a] w-[200px] rounded-md font-bold my-6 mx-auto py-3 text-[#eae7dc] hover:bg-red-500 hover:text-white hover:scale-105 transition-all duration-300'>
               Resume
           </button>
