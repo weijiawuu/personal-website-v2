@@ -1,11 +1,10 @@
 import React from 'react';
-import {FaSquareEnvelope, FaSquareGithub, FaLinkedin } from 'react-icons/fa6';
+import { FaSquareEnvelope, FaSquareGithub, FaLinkedin } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
     <div className='max-w-[1240px] py-6 px-4 text-gray-300 mx-auto text-center'>
       <div>
-        <h1 className='text-3xl font-bold text-[#e85a4f] mb-8'>Socials</h1>
         <div className='flex justify-center gap-8'>
           <a href='mailto:weijiawu.work@gmail.com' className='icon-link'>
             <FaSquareEnvelope size={30} />
