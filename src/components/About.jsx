@@ -1,8 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Confetti from 'react-confetti';
 
 function About() {
+  const [confettiRunning, setConfettiRunning] = useState(false);
+
+  const handlePictureClick = () => {
+    setConfettiRunning(true);
+    setTimeout(() => setConfettiRunning(false), 3500);
+  };
+
   return (
     <div className="py-40">
+      {confettiRunning && <Confetti recycle={false} />}
       <div className="w-full mx-auto px-24 md:grid md:grid-cols-2">
         <div className="md:pl-20">
           <h1 className="text-5xl font-bold text-[#e85a4f] mb-8">About Me</h1>
@@ -15,7 +24,7 @@ function About() {
           </p>
         </div>
         <div className="md:pl-40">
-          <img src="/WeijiaWuSeniorPic.jpg" alt="Weijia" className="rounded-lg shadow-md max-w-full" style={{ width: '100%', maxWidth: '500px' }} />
+          <img src="/WeijiaWuSeniorPic.jpg" alt="Weijia" className="rounded-lg shadow-md max-w-full transition duration-300 ease-in-out transform hover:scale-[1.03]" onClick={handlePictureClick} style={{ width: '100%', maxWidth: '500px' }} />
         </div>
       </div>
     </div>
@@ -23,4 +32,3 @@ function About() {
 }
 
 export default About;
-
