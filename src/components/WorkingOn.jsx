@@ -13,7 +13,7 @@ const WorkingOn = () => {
       <div className='px-52 mx-auto grid gap-16 md:grid-cols-2'>
 
         {/* Project Card 1 */}
-        <div className='bg-white rounded-lg shadow-lg border-2' style={{ borderColor: '#8e8d8a' }}>
+        <div className='bg-white rounded-lg shadow-lg border-2 transition duration-300 ease-in-out transform hover:scale-[1.01]' style={{ borderColor: '#8e8d8a' }}>
           <img src="websitePhoto.png" alt="Personal Website" className="w-full h-80 object-cover" />
           <div className='p-8'>
             <h2 className='text-2xl font-bold mb-2'>Personal Website V2</h2>
@@ -31,8 +31,8 @@ const WorkingOn = () => {
         </div>
 
         {/* Project Card 2 */}
-        <div className='bg-white rounded-lg shadow-lg border-2' style={{ borderColor: '#8e8d8a' }}>
-          <img src="robotpic.jpg" alt="Last Stretch Food Delivery Robot" className="w-full h-80 object-cover" /> {/* Project image */}
+        <div className='bg-white rounded-lg shadow-lg border-2 transition duration-300 ease-in-out transform hover:scale-[1.01]' style={{ borderColor: '#8e8d8a' }}>
+          <img src="robotpic.jpg" alt="Last Stretch Food Delivery Robot" className="w-full h-80 object-cover" />
           <div className='p-8'>
             <h2 className='text-2xl font-bold mb-2'>Last Stretch Food Delivery Robot</h2>
             <p className='text-gray-600'>Created a robot that could autonomously navigate and drop off food to specified rooms.</p>
@@ -48,8 +48,8 @@ const WorkingOn = () => {
         </div>
 
         {/* Project Card 3 */}
-        <div className='bg-white rounded-lg shadow-lg border-2' style={{ borderColor: '#8e8d8a' }}>
-          <img src="trafficlightpic.jpg" alt="Traffic Light Controller" className="w-full h-80 object-cover" /> {/* Project image */}
+        <div className='bg-white rounded-lg shadow-lg border-2 transition duration-300 ease-in-out transform hover:scale-[1.01]' style={{ borderColor: '#8e8d8a' }}>
+          <img src="trafficlightpic.jpg" alt="Traffic Light Controller" className="w-full h-80 object-cover" />
           <div className='p-8'>
             <h2 className='text-2xl font-bold mb-2'>Traffic Light Controller</h2>
             <p className='text-gray-600'>Used Verilog to develop a simple traffic light controller on the Altera DE2-115 development board, handling turns as well as optimizing wait times.</p>
@@ -65,8 +65,8 @@ const WorkingOn = () => {
         </div>
 
         {/* Project Card 4 */}
-        <div className='bg-white rounded-lg shadow-lg border-2' style={{ borderColor: '#8e8d8a' }}>
-          <img src="piazzapic.png" alt="Piazza Post Classifier" className="w-full h-80 object-cover" /> {/* Project image */}
+        <div className='bg-white rounded-lg shadow-lg border-2 transition duration-300 ease-in-out transform hover:scale-[1.01]' style={{ borderColor: '#8e8d8a' }}>
+          <img src="piazzapic.png" alt="Piazza Post Classifier" className="w-full h-80 object-cover" />
           <div className='p-8'>
             <h2 className='text-2xl font-bold mb-2'>Piazza Post Classifier</h2>
             <p className='text-gray-600'>Built a Piazza post classifier to intelligently sort Piazza posts into their respective categories using machine learning algorithms.</p>
@@ -85,3 +85,6 @@ const WorkingOn = () => {
 };
 
 export default WorkingOn;
+
+
+
