@@ -34,7 +34,7 @@ const Navbar = () => {
           {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
         </div>
 
-        <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[white] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
+        <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[white] ease-in-out duration-500' : 'dsease-in-out duration-500 fixed left-[-100%]'}>
           <h1 className='w-full text-3xl font-bold p-4 border-b border-gray-600'>Pages</h1>
           <li className='p-4 border-b border-gray-600'>
             <Link to="/" className='hover:text-[#e85a4f]'>Home</Link>
